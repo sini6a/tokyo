@@ -1,0 +1,3 @@
+[submodule "picom-ibhagwan-template"]
+	path = picom-ibhagwan-template
+	url = https://github.com/ibhagwan/picom-ibhagwan-template
