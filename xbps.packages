@@ -9,3 +9,8 @@ font-awesome
 wget
 python3-pip
 base-devel
+libXinerama-devel
+fontconfig-devel
+libXft-devel
+harfbuzz-devel
+libXcursor-devel
