@@ -7,3 +7,5 @@ noto-fonts-emoji
 font-iosevka
 font-awesome
 wget
+python3-pip
+base-devel
