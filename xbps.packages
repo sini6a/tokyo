@@ -15,3 +15,5 @@ libXft-devel
 harfbuzz-devel
 libXcursor-devel
 rofi
+xkb-switch
+curl
