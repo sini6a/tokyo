@@ -7,15 +7,13 @@ static const Block blocks[] = {
  
 	{"\x04﨎 ",  "curl \"wttr.in/Gothenburg?format=%t\"", 	 1800, 				 0},
 
-	{"\x05 ",  "cat /sys/class/thermal/thermal_zone6/temp | cut -c1-2", 	1, 					0},
+	{"\x05 ",  "cat /sys/class/thermal/thermal_zone2/temp | cut -c1-2", 	1, 					0},
 
 	{"\x06 ",  "free -h | awk '/^Mem/ { print $3 }' | sed s/i//g", 		5, 					0},
 
 	{"\x07  ",  "xkb-switch", 	1, 					10},
 
-	{"\x08⚡ ",  "if [ \"$(cat /sys/class/power_supply/BAT1/status)\" = 'Charging' ]; then echo -n '+'; else echo -n ' '; fi; cat /sys/class/power_supply/BAT1/capacity", 		5, 					0},
-
-	{"\x09 ",  "date +\"%d %b %y - %R\"", 		5, 					0},
+	{"\x08 ",  "date +\"%d %b %y - %R\"", 		5, 					0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.

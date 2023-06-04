@@ -25,30 +25,30 @@ echo
 # Symlink all the required configs
 echo "Symlinking .bashrc.."
 # symlink .bashrc
-# ln -svf $CURRENT_DIR/.bashrc $TARGET_DIR
+ln -svf $CURRENT_DIR/.bashrc $TARGET_DIR
 echo
 
-echo "Symlinking .Xresource.."
-# ln -svf $CURRENT_DIR/.Xresource $TARGET_DIR
+echo "Symlinking .Xresources.."
+ln -svf $CURRENT_DIR/.Xresources $TARGET_DIR
 echo
 
 echo "Symlinking .xinitrc.."
-# ln -svf $CURRENT_DIR/.xinitrc $TARGET_DIR
+ln -svf $CURRENT_DIR/.xinitrc $TARGET_DIR
 echo
 
 echo "Symlinking .config/*.."
-# mkdir -p $TARGET_DIR/.config
-# ln -svf $CURRENT_DIR/.config/* $TARGET_DIR/.config/
+mkdir -p $TARGET_DIR/.config
+ln -svf $CURRENT_DIR/.config/* $TARGET_DIR/.config/
 echo
 
 echo "Symlinking .themes/*.."
-# mkdir -p $TARGET_DIR/.themes
-# ln -svf $CURRENT_DIR/.themes/* $TARGET_DIR/.themes/
+mkdir -p $TARGET_DIR/.themes
+ln -svf $CURRENT_DIR/.themes/* $TARGET_DIR/.themes/
 echo
 
 echo "Symlinking .fonts/*.."
-# mkdir -p $TARGET_DIR/.fonts
-# ln -svf $CURRENT_DIR/.fonts/* $TARGET_DIR/.fonts/
+mkdir -p $TARGET_DIR/.fonts
+ln -svf $CURRENT_DIR/.fonts/* $TARGET_DIR/.fonts/
 echo
 
 

@@ -17,3 +17,12 @@ libXcursor-devel
 rofi
 xkb-switch
 curl
+cbatticon
+polkit
+polkit-elogind
+elogind
+dbus-elogind
+dbus-elogind-libs
+dbus-elogind-x11
+xorg
+xinit
