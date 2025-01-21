@@ -43,6 +43,8 @@ sh $HOME/.fehbg &
 nm-applet &
 volumeicon &
 greenclip daemon &
-redshift -l 57.70716:11.96679 &
+redshift-gtk -l 57.70716:11.96679 &
 picom --experimental-backends &
+setxkbmap se &
+cbatticon &
 exec dbus-launch --exit-with-session dwm
