@@ -28,6 +28,10 @@ echo "Symlinking .bashrc.."
 ln -svf $CURRENT_DIR/.bashrc $TARGET_DIR
 echo
 
+echo "Symlinking .bash_powerline.sh.."
+ln -svf $CURRENT_DIR/.bash-powerline.sh $TARGET_DIR
+echo
+
 echo "Symlinking .Xresources.."
 ln -svf $CURRENT_DIR/.Xresources $TARGET_DIR
 echo
